@@ -12,7 +12,8 @@
 .header {
     height:73px;
     background-color: #0a0a0a;
-    padding: 10px 0px ;
+    /* padding: 10px 0px ; */
+    margin-bottom: 10px;
 }
 
 
@@ -44,6 +45,10 @@
 .nav__items {
     display: flex;
     flex-direction: row;
+}
+
+.nav_color{
+    background-color:#131313;
 }
 
 /*INDEX*/
@@ -133,6 +138,7 @@
     background-size: cover;
     width: 100%;
     height: 130px;
+    margin-top:20px ;
 }
 
 .hero p {
