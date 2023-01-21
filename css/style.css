@@ -36,7 +36,7 @@
     color: #b5b4b6;
     font-family: 'MonteCarlo';
     font-size: xx-large;
-    padding: 10px;
+    /* padding: 10px; */
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -50,6 +50,7 @@
 .nav_color{
     background-color:#131313;
 }
+
 
 /*INDEX*/
 
@@ -106,353 +107,26 @@
 
 .btn {
     color: #000;
-    /* background-color: #59CEE6; */
     padding: 10px;
     width: 150px;
     border-radius: 3px;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* font-size: 24px; */
 }
 
-/* bootstrap hero */
-CSS.mb-6 {
-    margin-bottom: 4.5rem !important;
-}
-
-.mb-7 {
-    margin-bottom: 6rem !important;
-}
-
-.mb-8 {
-    margin-bottom: 7.5rem !important;
-}
-
-.mb-9 {
-    margin-bottom: 9rem !important;
-}
-
-.mb-10 {
-    margin-bottom: 10.5rem !important;
-}
-
-.py-6 {
-    padding-top: 4.5rem !important;
-    padding-bottom: 4.5rem !important;
-}
-
-.py-7 {
-    padding-top: 6rem !important;
-    padding-bottom: 6rem !important;
-}
-
-.py-8 {
-    padding-top: 7.5rem !important;
-    padding-bottom: 7.5rem !important;
-}
-
-.py-9 {
-    padding-top: 9rem !important;
-    padding-bottom: 9rem !important;
-}
-
-.py-10 {
-    padding-top: 10.5rem !important;
-    padding-bottom: 10.5rem !important;
-}
-
-.hcf-bp-center {
-    background-position: center !important;
-}
-
-.hcf-bs-cover {
-    background-size: cover !important;
-}
-
-@media (min-width: 576px) {
-    .mb-sm-6 {
-        margin-bottom: 4.5rem !important;
-    }
-
-    .mb-sm-7 {
-        margin-bottom: 6rem !important;
-    }
-
-    .mb-sm-8 {
-        margin-bottom: 7.5rem !important;
-    }
-
-    .mb-sm-9 {
-        margin-bottom: 9rem !important;
-    }
-
-    .mb-sm-10 {
-        margin-bottom: 10.5rem !important;
-    }
-
-    .py-sm-6 {
-        padding-top: 4.5rem !important;
-        padding-bottom: 4.5rem !important;
-    }
-
-    .py-sm-7 {
-        padding-top: 6rem !important;
-        padding-bottom: 6rem !important;
-    }
-
-    .py-sm-8 {
-        padding-top: 7.5rem !important;
-        padding-bottom: 7.5rem !important;
-    }
-
-    .py-sm-9 {
-        padding-top: 9rem !important;
-        padding-bottom: 9rem !important;
-    }
-
-    .py-sm-10 {
-        padding-top: 10.5rem !important;
-        padding-bottom: 10.5rem !important;
-    }
-}
-
-@media (min-width: 768px) {
-    .mb-md-6 {
-        margin-bottom: 4.5rem !important;
-    }
-
-    .mb-md-7 {
-        margin-bottom: 6rem !important;
-    }
-
-    .mb-md-8 {
-        margin-bottom: 7.5rem !important;
-    }
-
-    .mb-md-9 {
-        margin-bottom: 9rem !important;
-    }
-
-    .mb-md-10 {
-        margin-bottom: 10.5rem !important;
-    }
-
-    .py-md-6 {
-        padding-top: 4.5rem !important;
-        padding-bottom: 4.5rem !important;
-    }
-
-    .py-md-7 {
-        padding-top: 6rem !important;
-        padding-bottom: 6rem !important;
-    }
-
-    .py-md-8 {
-        padding-top: 7.5rem !important;
-        padding-bottom: 7.5rem !important;
-    }
-
-    .py-md-9 {
-        padding-top: 9rem !important;
-        padding-bottom: 9rem !important;
-    }
-
-    .py-md-10 {
-        padding-top: 10.5rem !important;
-        padding-bottom: 10.5rem !important;
-    }
-}
-
-@media (min-width: 992px) {
-    .mb-lg-6 {
-        margin-bottom: 4.5rem !important;
-    }
-
-    .mb-lg-7 {
-        margin-bottom: 6rem !important;
-    }
-
-    .mb-lg-8 {
-        margin-bottom: 7.5rem !important;
-    }
-
-    .mb-lg-9 {
-        margin-bottom: 9rem !important;
-    }
-
-    .mb-lg-10 {
-        margin-bottom: 10.5rem !important;
-    }
-
-    .py-lg-6 {
-        padding-top: 4.5rem !important;
-        padding-bottom: 4.5rem !important;
-    }
-
-    .py-lg-7 {
-        padding-top: 6rem !important;
-        padding-bottom: 6rem !important;
-    }
-
-    .py-lg-8 {
-        padding-top: 7.5rem !important;
-        padding-bottom: 7.5rem !important;
-    }
-
-    .py-lg-9 {
-        padding-top: 9rem !important;
-        padding-bottom: 9rem !important;
-    }
-
-    .py-lg-10 {
-        padding-top: 10.5rem !important;
-        padding-bottom: 10.5rem !important;
-    }
-}
-
-@media (min-width: 1200px) {
-    .mb-xl-6 {
-        margin-bottom: 4.5rem !important;
-    }
-
-    .mb-xl-7 {
-        margin-bottom: 6rem !important;
-    }
-
-    .mb-xl-8 {
-        margin-bottom: 7.5rem !important;
-    }
-
-    .mb-xl-9 {
-        margin-bottom: 9rem !important;
-    }
-
-    .mb-xl-10 {
-        margin-bottom: 10.5rem !important;
-    }
-
-    .py-xl-6 {
-        padding-top: 4.5rem !important;
-        padding-bottom: 4.5rem !important;
-    }
-
-    .py-xl-7 {
-        padding-top: 6rem !important;
-        padding-bottom: 6rem !important;
-    }
-
-    .py-xl-8 {
-        padding-top: 7.5rem !important;
-        padding-bottom: 7.5rem !important;
-    }
-
-    .py-xl-9 {
-        padding-top: 9rem !important;
-        padding-bottom: 9rem !important;
-    }
-
-    .py-xl-10 {
-        padding-top: 10.5rem !important;
-        padding-bottom: 10.5rem !important;
-    }
-}
-
-@media (min-width: 1400px) {
-    .mb-xxl-6 {
-        margin-bottom: 4.5rem !important;
-    }
-
-    .mb-xxl-7 {
-        margin-bottom: 6rem !important;
-    }
-
-    .mb-xxl-8 {
-        margin-bottom: 7.5rem !important;
-    }
-
-    .mb-xxl-9 {
-        margin-bottom: 9rem !important;
-    }
-
-    .mb-xxl-10 {
-        margin-bottom: 10.5rem !important;
-    }
-
-    .py-xxl-6 {
-        padding-top: 4.5rem !important;
-        padding-bottom: 4.5rem !important;
-    }
-
-    .py-xxl-7 {
-        padding-top: 6rem !important;
-        padding-bottom: 6rem !important;
-    }
-
-    .py-xxl-8 {
-        padding-top: 7.5rem !important;
-        padding-bottom: 7.5rem !important;
-    }
-
-    .py-xxl-9 {
-        padding-top: 9rem !important;
-        padding-bottom: 9rem !important;
-    }
-
-    .py-xxl-10 {
-        padding-top: 10.5rem !important;
-        padding-bottom: 10.5rem !important;
-    }
-}
-
-.hcf-overlay {
-    --hcf-overlay-opacity: 0.5;
-    --hcf-overlay-bg-color: var(--bs-black-rgb);
-    position: relative;
-}
-
-.hcf-overlay::after {
-    display: block;
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(var(--hcf-overlay-bg-color),
-            var(--hcf-overlay-opacity));
-    z-index: 0;
-}
-
-.hcf-overlay &gt;
-
-* {
-    position: relative;
-    z-index: 1;
-}
-
-.hcf-transform {
-    transform: scale3d(1, 1, 1);
-    transform-style: preserve-3d;
-    transition: all 0.5s;
-}
-
-.hcf-transform:hover {
-    transform: scale3d(1.02, 1.02, 1.02);
-}
-
-/* bootstrap hero */
 .hero{
-    background-color:#131313;
     display:flex;
     flex-direction: column;
     align-items: center;
+}
+
+.hero_bg{
     background-image: url(../assets/images/backgroungHero.png);
     background-position: center;
     background-size: cover;
-    width: 100%;
-    height: 300px;
 }
+
 
 .hero--mini {
     background-color:#131313;
@@ -473,7 +147,9 @@ CSS.mb-6 {
     font-size: large;
     padding: 0px 10px 0px 10px;
     text-align: center;
-    width: 900px;
+    /* width: 900px; */
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .hero__titulo {
@@ -510,7 +186,6 @@ CSS.mb-6 {
 
 .rama__body{
     font-family: 'Cormorant Infant', serif;
-    width: 80%;
 }
 
 .rama__body h2 {
@@ -522,6 +197,34 @@ CSS.mb-6 {
     color: #b5b4b6;
     font-family: 'Cormorant Upright', serif;
     font-size: 18px;
+}
+
+.card__width {
+    width: 20rem;
+}
+
+.card img {
+    height: 130px;
+    object-fit: cover;
+}
+
+.card-body-color {
+    background-color: #131313;
+    color: #eee;
+    border-color: #0a0a0a;
+}
+
+.card {
+    --bs-card-border-color: #242424
+}
+
+.card__transform{
+    transition: 0.4s;
+}
+
+.card__transform:hover{
+    box-shadow: 1px 1px 1px 1px rgb(32, 32, 32);
+    transform: scale(1, 1.05);
 }
 
 /*CONTACTO*/
@@ -705,7 +408,6 @@ CSS.mb-6 {
     flex-direction: row;
     justify-content: space-evenly;
     padding-top: 15px;
-    padding-bottom: 15px;
     background-color: #131313;
     opacity: 1;
     align-items: center;
