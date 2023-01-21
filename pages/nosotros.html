@@ -13,30 +13,48 @@
 
     <header class="header" id="header">
 
-        <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-lg shadow">
-            <a class="navbar-brand nav__titulo" href="../index.html">Estudio de abogados</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./staff.html">Staff</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contacto.html">Contacto</a>
-                    </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
-                    </li> -->
-                </ul>
+        <nav class="navbar navbar-dark nav_color fixed-top navbar-expand-lg shadow">
+            <div class="container-fluid link">
+                <a class="navbar-brand nav__titulo" href="../index.html">Estudio de Abogados</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title nav__titulo" id="offcanvasDarkNavbarLabel">Estudio de Abogados</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./staff.html">Staff</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://twitter.com/BinaryOverwrite" class="nav-link" target="_blank"> <i
+                                        class="fa-brands fa-twitter"></i> </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://www.facebook.com/profile.php?id=100086623151852" class="nav-link"
+                                    target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </nav>
-        
+
     </header>
 
     <main class="main" id="main">
@@ -63,32 +81,61 @@
 
     <footer class="footer" id="footer">
         <section class="footer__section">
-            <div class="footer__datos">
-                <ul>
-                    <li>Talcahuano 550 - CABA</li>
-                    <li>+541143704600</li>
-                    <li>info@estudiodeabogados.com.ar</li>
-                </ul>
-            </div>
-            <div class="footer__nav">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./staff.html">Staff</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                </ul>
-            </div>
-            <div class="footer__redes">
-                <ul>
-                    <li><a href="https://twitter.com/BinaryOverwrite/" target="_blank">Twitter</a></li>
-                    <li><a href="https://www.facebook.com/profile.php?id=100086623151852" target="_blank">Facebook</a></li>
-                </ul>
+            <div class="container-fluid">
+                <div class="row link navbar navbar-dark nav_color navbar-expand-lg shadow">
+                    <div class="col">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                            aria-labelledby="offcanvasDarkNavbarLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title nav__titulo" id="offcanvasDarkNavbarLabel">Estudio de Abogados
+                                </h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="./staff.html">Staff</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="footer__datos">
+                            <ul>
+                                <li>Talcahuano 550 - CABA</li>
+                                <li>info@estudiodeabogados.com.ar</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <a href="" class="nav-link" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100086623151852" class="nav-link" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/BinaryOverwrite" class="nav-link" target="_blank"> <i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
             </div>
         </section>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/41f6a99dcb.js" crossorigin="anonymous"></script>
 
 </body>
 </html>

@@ -51,47 +51,48 @@
     background-color:#131313;
 }
 
+.offcanvas {
+    --bs-offcanvas-width:300px;
+}
 
-/*INDEX*/
+.link {
 
-.gridIndex{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: auto;
-    grid-template-areas:
-    'nav1 nav2 nav2'
-    'iArea1 iArea1 iArea1'
-    'iArea2 iArea3 iArea4';
-    gap: 10px;
+    display: flex;
     justify-content: space-evenly;
 }
 
-.gn1{
-    grid-area: nav1;
-
+.link a {
+    position: relative;
 }
 
-.gn1{
-    grid-area: nav2;
-
+.link a:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: #b5b4b6;
+    /*animacion de derecha a izquierda*/
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.2s ease-in-out;
 }
 
-.gi1{
-    grid-area: iArea1;
-
+.link a:hover:after {
+    /*animacion de derecha a izquierda*/
+    transform-origin: left;
+    transform: scaleX(1);
 }
 
-.gi2{
-    grid-area: iArea2;
+.row {
+    margin-right: 0;
+    margin-left: 0;
 }
 
-.gi3{
-    grid-area: iArea3;
-}
+/*INDEX*/
 
-.gi4{
-    grid-area: iArea4;
-}
 
 .body {
     background-color:#0a0a0a;
@@ -127,7 +128,6 @@
     background-size: cover;
 }
 
-
 .hero--mini {
     background-color:#131313;
     display:flex;
@@ -157,13 +157,6 @@
     font-family: 'MonteCarlo';
     font-size: 70px;
 }
-
-/* .ramas {
-    display:flex;
-    flex-direction: row;
-    align-items: flex-start;
-    margin-top: 10px;
-} */
 
 .rama {
     width: 100%;
@@ -406,8 +399,8 @@
 .footer__section {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding-top: 15px;
+    /* justify-content: space-evenly; */
+    /* padding-top: 15px; */
     background-color: #131313;
     opacity: 1;
     align-items: center;
@@ -417,6 +410,15 @@
 .footer__datos {
     display:flex;
     flex-direction: column ;
+    font-size: 15px;
+    align-items: center;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.footer__datos ul {
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 .footer__nav {

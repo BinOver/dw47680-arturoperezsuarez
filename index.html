@@ -15,14 +15,13 @@
     <header class="header" id="header">
 
         <nav class="navbar navbar-dark nav_color fixed-top navbar-expand-lg shadow">
-            <div class="container-fluid">
+            <div class="container-fluid link">
                 <a class="navbar-brand nav__titulo" href="#">Estudio de Abogados</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
-                    aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                     <div class="offcanvas-header">
                         <h5 class="offcanvas-title nav__titulo" id="offcanvasDarkNavbarLabel">Estudio de Abogados</h5>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
@@ -83,7 +82,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row row_mlr-0">
                 <div class="col-xl-4 col-lg-12 text-center">
                     <div class="card card__width mb-2 mx-auto card__transform">
                         <img class="card-img-top" src="./assets/images/derechoCivil.webp" alt="Derecho civil">
@@ -120,7 +119,6 @@
                                 voluptatibus voluptatem iusto quod! Assumenda cumque voluptates deserunt pariatur ipsa
                                 cupiditate non magnam recusandae. Maiores laboriosam praesentium optio necessitatibus.
                             </p>
-                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
                     </div>
                 </div>
@@ -130,26 +128,54 @@
     </main>
     <footer class="footer" id="footer">
         <section class="footer__section">
-            <div class="footer__datos">
-                <ul>
-                    <li>Talcahuano 550 - CABA</li>
-                    <li>+541143704600</li>
-                    <li>info@estudiodeabogados.com.ar</li>
-                </ul>
-            </div>
-            <div class="footer__nav">
-                <ul>
-                    <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                    <li><a href="./pages/staff.html">Staff</a></li>
-                    <li><a href="./pages/contacto.html">Contacto</a></li>
-                </ul>
-            </div>
-            <div class="footer__redes">
-                <ul>
-                    <li><a href="https://twitter.com/BinaryOverwrite/" target="_blank">Twitter</a></li>
-                    <li><a href="https://www.facebook.com/profile.php?id=100086623151852" target="_blank">Facebook</a>
-                    </li>
-                </ul>
+            <div class="container-fluid">
+                <div class="row link navbar navbar-dark nav_color navbar-expand-lg shadow">
+                    <div class="col">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                            aria-labelledby="offcanvasDarkNavbarLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title nav__titulo" id="offcanvasDarkNavbarLabel">Estudio de Abogados
+                                </h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page"
+                                            href="./pages/nosotros.html">Nosotros</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="./pages/staff.html">Staff</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page"
+                                            href="./pages/contacto.html">Contacto</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="footer__datos">
+                            <ul>
+                                <li>Talcahuano 550 - CABA</li>
+                                <li>info@estudiodeabogados.com.ar</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <a href="" class="nav-link" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100086623151852" class="nav-link" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/BinaryOverwrite" class="nav-link" target="_blank"> <i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
             </div>
         </section>
     </footer>
