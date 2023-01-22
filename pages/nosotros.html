@@ -57,24 +57,49 @@
 
     </header>
 
-    <main class="main" id="main">
-        <section class="hero--mini">
-            <h1 class="hero__titulo">Nosotros</h1>    
-        </section>
 
-        <section class="bodyNosotros gridNosotros">
-            <div class="bodyNosotros__text gn1">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, natus ipsum perspiciatis ipsam voluptas dolores delectus voluptatem vel beatae dolorum maiores deleniti amet suscipit ab culpa accusantium unde quidem magni.
-                Provident assumenda sunt doloremque aliquam, ex est et ab laudantium dignissimos iste nisi rem at sed fugiat, placeat debitis quo asperiores! Exercitationem magnam, delectus iste molestias quibusdam voluptas.</p>
+    <main class="main" id="main">
+        <section class="">
+            <div class="container-fluid p-1">
+                <div class="row hero--mini mb-5">
+                    <div class="col-12 text-center">
+                        <h1 class="hero__titulo">Nosotros</h1>
+                    </div>
+                </div>
             </div>
-            <div class="bodyNosotros__img gn2">
-                <img src="../assets/images/nosotrosBody.webp" alt="Imagen Nosotros">
-            </div>
-            <div class="bodyNosotros__iframe" class="gn3">
-                <iframe width="400" height="215" src="https://www.youtube.com/embed/ClhuRYjci-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="bodyNosotros__text gn4">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum accusantium facilis ex sapiente hic quaerat molestias saepe vitae eos eaque est, possimus pariatur odio deleniti quibusdam voluptates adipisci nulla inventore.</p>
+            <div class="container-fluid">
+                <div class="row row_mlr-0">
+                    <div class="col-xl-6 col-lg-12 text-center mb-3 alignNosotros">
+                        <div class="bodyNosotros__text">
+                            <p class="card__transform">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, natus ipsum perspiciatis ipsam
+                                voluptas dolores delectus voluptatem vel beatae dolorum maiores deleniti amet suscipit ab culpa
+                                accusantium unde quidem magni.
+                                Provident assumenda sunt doloremque aliquam, ex est et ab laudantium dignissimos iste nisi rem at sed
+                                fugiat, placeat debitis quo asperiores! Exercitationem magnam, delectus iste molestias quibusdam
+                                voluptas.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12 text-center mb-3 alignNosotros">
+                        <div class="bodyNosotros__img">
+                            <img src="../assets/images/nosotrosBody.webp" alt="Imagen Nosotros">
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12 text-center mb-3 alignNosotros">
+                        <div class="bodyNosotros__iframe">
+                            <iframe width="400" height="215" src="https://www.youtube.com/embed/ClhuRYjci-g"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12 text-center mb-3 alignNosotros">
+                        <div class="bodyNosotros__text  ">
+                            <p class="card__transform">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum accusantium facilis ex sapiente hic
+                                quaerat molestias saepe vitae eos eaque est, possimus pariatur odio deleniti quibusdam voluptates
+                                adipisci nulla inventore.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -83,7 +108,7 @@
         <section class="footer__section">
             <div class="container-fluid">
                 <div class="row link navbar navbar-dark nav_color navbar-expand-lg shadow">
-                    <div class="col">
+                    <div class="col col-sm-2 col-md-4 col-lg-4 col-xl-4">
                         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                             data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                             <span class="navbar-toggler-icon"></span>
@@ -99,20 +124,22 @@
                             <div class="offcanvas-body">
                                 <ul class="navbar-nav flex-grow-1 pe-3">
                                     <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                                        <a class="nav-link active" aria-current="page"
+                                            href="./pages/nosotros.html">Nosotros</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="./staff.html">Staff</a>
+                                        <a class="nav-link active" aria-current="page" href="./pages/staff.html">Staff</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+                                        <a class="nav-link active" aria-current="page"
+                                            href="./pages/contacto.html">Contacto</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     
-                    <div class="col">
+                    <div class="col col-sm-8 col-md-4 col-lg-4 col-xl-4">
                         <div class="footer__datos">
                             <ul>
                                 <li>Talcahuano 550 - CABA</li>
@@ -121,7 +148,7 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col col-sm-2 col-md-4 col-lg-4 col-xl-4 footerAlignItems">
                         <a href="" class="nav-link" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                         <a href="https://www.facebook.com/profile.php?id=100086623151852" class="nav-link" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
                         <a href="https://twitter.com/BinaryOverwrite" class="nav-link" target="_blank"> <i class="fa-brands fa-twitter"></i></a>
