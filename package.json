@@ -1,0 +1,22 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BinOver/dw47680-arturoperezsuarez.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BinOver/dw47680-arturoperezsuarez/issues"
+  },
+  "homepage": "https://github.com/BinOver/dw47680-arturoperezsuarez#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
