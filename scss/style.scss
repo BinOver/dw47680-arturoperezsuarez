@@ -1,0 +1,212 @@
+@import './base/reset';
+@import './base/vars';
+
+@import './components/header';
+@import './components/footer';
+
+@import './layouts/index';
+@import './layouts/nosotros';
+@import './layouts/staff';
+@import './layouts/contacto';
+
+
+@media only screen and (min-width:1px) and (max-width: 320px) {
+    .footer__datos {
+        font-size: 10px;
+        }
+    .rama__body p {
+        font-size: 15px;
+    }
+    .card__width {
+        width: 15rem;
+    }
+    .hero__body h1{
+        font-size: 45px;
+    }
+    .hero__body p{
+        font-size: 15px;
+    }
+    .mb-15px {
+        margin-bottom: 15px;
+    }
+    body {
+        line-height:1.2;
+    }
+    .footerAlignItems {
+        display: flex;
+        justify-content:center;
+    }
+    .staff__person img {
+        size: 100px;
+    }
+    .staff__person {
+        width: 300px;
+        flex-direction: column;
+        border-radius: 6%/4%;
+    }
+    .bodyNosotros__img img{
+        border-radius: 6% /4%;
+        width: 200px;
+        height: 100px;
+    }
+    .bodyNosotros__text {
+        font-size: 16px;
+    }
+    .bodyNosotros__text p {
+        border-radius: 6% /4%;
+        padding: 18px;
+        box-shadow:5px 5px 5px #080808;
+        margin-bottom: 0;
+    }
+    
+    .staff__person {
+        width: 300px;
+        border-radius: 6%/4%;
+        padding: 10px;
+        transition: 0.4s;
+    }
+    
+    .staff__person ul li {
+        font-size: 16px;
+    }
+    .sectionForm__form {
+        border-radius: 6%/3%;
+        width: 95%;
+        height: 100%;
+        gap: 10px;
+        padding: 10px;
+        margin: 5px;
+        font-size: 14px;
+    }
+    .sectionForm__mapa {
+        background-color: #131313;
+        width: 95%;
+        padding: 10px;
+        border-radius: 6%/3%;
+        gap: 10px;
+        padding: 10px;
+        margin: 5px;
+    }
+    .sectionForm__form__btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        gap: 10px;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width: 768px) {
+    .footer__datos {
+        font-size: 10px;
+        }
+    .rama__body p {
+        font-size: 15px;
+    }
+    .card__width {
+        width: 17rem;
+    }
+    .hero__body h1{
+        font-size: 45px;
+    }
+    .hero__body p{
+        font-size: 15px;
+    }
+    .mb-15px {
+        margin-bottom: 15px;
+    }
+    body {
+        line-height:1.2;
+    }
+    .footerAlignItems {
+        display: flex;
+        justify-content:center;
+    }
+    .staff__person img {
+        size: 100px;
+    }
+    .staff__person {
+        width: 300px;
+        flex-direction: column;
+        border-radius: 3% /6%;
+    }
+    .bodyNosotros__img img{
+        border-radius: 3% /6%;
+        width: 300px;
+        height: 150px;
+    }
+    .bodyNosotros__text {
+        font-size: 16px;
+    }
+    .bodyNosotros__text p {
+        border-radius: 3% /6%;
+        padding: 18px;
+        box-shadow:5px 5px 5px #080808;
+        margin-bottom: 0;
+    }
+    .staff__person {
+        width: 300px;
+        border-radius: 6%/4%;
+        padding: 10px;
+        transition: 0.4s;
+    }
+    .staff__person ul li {
+        font-size: 16px;
+    }
+    .sectionForm__form {
+        border-radius: 4%/6%;
+        width: 95%;
+        height: 100%;
+        gap: 10px;
+        padding: 20px;
+        margin: 10px;
+    }
+    .sectionForm__mapa {
+        background-color: #131313;
+        width: 95%;
+        padding: 10px;
+        border-radius: 4%/6%;
+        gap: 10px;
+        padding: 20px;
+        margin: 10px;
+    }
+    .form-justify {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 900px) {
+    .footer__datos {
+        font-size: 10px;
+        }
+    .rama__body p {
+        font-size: 15px;
+    }
+    .card__width {
+        width: 17rem;
+    }
+    .hero__body h1{
+        font-size: 45px;
+    }
+    .hero__body p{
+        font-size: 15px;
+    }
+    .mb-15px {
+        margin-bottom: 15px;
+    }
+    body {
+        line-height:1.2;
+    }
+    .footerAlignItems {
+        display: flex;
+        justify-content:center;
+    }
+    .staff__person img {
+        size: 100px;
+    }
+    .staff__person {
+        width: 300px;
+        flex-direction: column;
+        border-radius: 6%/4%;
+    }
+}

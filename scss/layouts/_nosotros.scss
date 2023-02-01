@@ -1,0 +1,47 @@
+.bodyNosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    gap: 20px;
+}
+
+.bodyNosotros__text {
+    font-family: 'Cormorant Upright', serif;
+    font-size: 18px;
+    color: $color-lightgray;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+}
+
+.bodyNosotros__text p {
+    width: 80%;
+    background-color: $color-lightblack;
+    border-radius: 2% /6%;
+    padding: 20px;
+    box-shadow:5px 5px 5px #080808;
+    margin-bottom: 0;
+}
+
+.bodyNosotros__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bodyNosotros__img img{
+    border-radius: 3% /6%;
+    width: 400px;
+    height: 200px;
+}
+
+.bodyNosotros__iframe {
+    display: flex;
+    justify-content: center;
+}
+
+.alignNosotros {
+    align-self: center;
+    justify-content: center
+}
