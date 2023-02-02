@@ -11,7 +11,7 @@
 }
 
 .hero--mini {
-    background-color:$color-lightblack;
+    background-color:$color-lightgray;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +23,7 @@
 
 .hero p {
     font-family: 'Cormorant Infant', serif;
-    color:#d4d3d4;
+    color:$color-lightgray;
     font-size: large;
     padding: 0px 10px 0px 10px;
     text-align: center;
@@ -32,7 +32,7 @@
 }
 
 .hero__titulo {
-    color: #d4d3d4;
+    color:$color-lightgray;
     font-family: 'MonteCarlo';
     font-size: 70px;
 }

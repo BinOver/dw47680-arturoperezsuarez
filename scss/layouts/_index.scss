@@ -1,5 +1,5 @@
 .body {
-    background-color:#0a0a0a;
+    background-color:$color-lightblack2;
     min-height: 100vh;
     position: relative;
 }
@@ -42,7 +42,7 @@
 }
 
 .rama__body h2 {
-    color: #d4d3d4;
+    color: $color-lightblack2;
     font-family:  'ABeeZee', sans-serif;
 }
 
@@ -64,7 +64,7 @@
 .card-body-color {
     background-color: $color-lightblack;
     color: #eee;
-    border-color: #0a0a0a;
+    border-color: $color-lightblack2;
 }
 
 .card {

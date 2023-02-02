@@ -3,12 +3,12 @@
 
 @import './components/header';
 @import './components/footer';
+@import './components/hero';
 
 @import './layouts/index';
 @import './layouts/nosotros';
 @import './layouts/staff';
 @import './layouts/contacto';
-
 
 @media only screen and (min-width:1px) and (max-width: 320px) {
     .footer__datos {
@@ -55,7 +55,7 @@
     .bodyNosotros__text p {
         border-radius: 6% /4%;
         padding: 18px;
-        box-shadow:5px 5px 5px #080808;
+        box-shadow:5px 5px 5px $color-lightblack2;
         margin-bottom: 0;
     }
     
@@ -79,7 +79,7 @@
         font-size: 14px;
     }
     .sectionForm__mapa {
-        background-color: #131313;
+        background-color: color-lightblack;
         width: 95%;
         padding: 10px;
         border-radius: 6%/3%;
@@ -140,7 +140,7 @@
     .bodyNosotros__text p {
         border-radius: 3% /6%;
         padding: 18px;
-        box-shadow:5px 5px 5px #080808;
+        box-shadow:5px 5px 5px $color-lightblack2;
         margin-bottom: 0;
     }
     .staff__person {
@@ -161,7 +161,7 @@
         margin: 10px;
     }
     .sectionForm__mapa {
-        background-color: #131313;
+        background-color: color-lightblack;
         width: 95%;
         padding: 10px;
         border-radius: 4%/6%;

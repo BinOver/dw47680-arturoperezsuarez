@@ -2,13 +2,13 @@
 
 .header {
     height:73px;
-    background-color: #0a0a0a;
+    background-color: $color-lightblack2;
     margin-bottom: 10px;
 }
 
 
 .nav {
-    background-color:#131313;
+    background-color:color-lightblack;
     display:flex;
     justify-content:space-around;
     align-items: center;
@@ -16,14 +16,14 @@
 
 .nav-link {
     font-family: 'ABeeZee', sans-serif;
-    color:#dfdfdf;
+    color:$color-lightblack2;
     padding: 15px;
     margin: 0;
     float: right;
 }
 
 .nav__titulo {
-    color: #b5b4b6;
+    color: $color-lightgray;
     font-family: 'MonteCarlo';
     font-size: xx-large;
     display: flex;
@@ -37,12 +37,12 @@
 }
 
 .nav_color{
-    background-color:#131313;
+    background-color:color-lightblack;
 }
 
 .text-bg-dark-mod {
-    color: #b5b4b6;
-    background-color: #131313ec ;
+    color: $color-lightgray;
+    background-color: color-lightblackec ;
 }
 
 .offcanvas {
@@ -67,7 +67,7 @@
     left: 0;
     height: 2px;
     width: 100%;
-    background: #b5b4b6;
+    background: $color-lightgray;
     transform-origin: right;
     transform: scaleX(0);
     transition: transform 0.2s ease-in-out;

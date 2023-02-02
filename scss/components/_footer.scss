@@ -1,11 +1,11 @@
 
 .footer {
     font-family: 'ABeeZee', sans-serif;
-    color:#b5b4b6;
+    color:$color-lightgray;
     display: flex;
     justify-content:space-evenly;
     width: 100%;
-    background-color: #0a0a0a;
+    background-color: $color-lightblack2;
     position: absolute;
     bottom: 0;
 }
@@ -13,7 +13,7 @@
 .footer__section {
     display: flex;
     flex-direction: row;
-    background-color: #131313;
+    background-color: color-lightblack;
     opacity: 1;
     align-items: center;
     width: 100%;
@@ -39,7 +39,7 @@
 }
 
 .footer__nav ul li a {
-    color:#b5b4b6;
+    color:$color-lightgray;
 }
 
 .footer__section div ul {
@@ -49,7 +49,7 @@
 }
 
 .footer__redes ul li a {
-    color:#b5b4b6;
+    color:$color-lightgray;
 }
 
 .footerAlignItems {
