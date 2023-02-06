@@ -1,0 +1,7 @@
+@mixin flexoptions ($fodirection,$foalign,$fojustify){
+    display:flex;
+    flex-direction:$fodirection;
+    align-items: $foalign;
+    justify-content: $fojustify;
+    // flex-wrap: wrap;
+}

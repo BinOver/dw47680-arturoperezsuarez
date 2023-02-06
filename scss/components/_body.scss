@@ -1,0 +1,11 @@
+.body {
+    background-color:$color-lightblack2;
+    min-height: 100vh;
+    position: relative;
+}
+
+body::after {
+    content: '';
+    display: block;
+    height: 110px;
+}

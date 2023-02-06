@@ -1,0 +1,254 @@
+@media only screen and (min-width:1px) and (max-width: 320px) {
+    .footer__datos {
+        font-size: 10px;
+    }
+
+    .rama__body p {
+        font-size: 15px;
+    }
+
+    .card__width {
+        width: 15rem;
+    }
+
+    .hero__body h1 {
+        font-size: 45px;
+    }
+
+    .hero__body p {
+        font-size: 15px;
+    }
+
+    .mb-15px {
+        margin-bottom: 15px;
+    }
+
+    .body {
+        line-height: 1.2;
+        min-height: 100vh;
+
+    }
+
+    .footerAlignItems {
+        display: flex;
+        justify-content: center;
+    }
+
+    .staff {
+        .staff__person {
+            width: 300px;
+            flex-direction: column;
+            padding: 10px;
+            transition: 0.4s;
+
+            img {
+                size: 100px;
+            }
+
+            ul li {
+                font-size: 16px;
+            }
+
+        }
+    }
+
+    .bodyNosotros__img img {
+        border-radius: 6% /4%;
+        width: 200px;
+        height: 100px;
+    }
+
+    .bodyNosotros__text {
+        font-size: 16px;
+
+        p {
+            border-radius: 6% /4%;
+            padding: 18px;
+            box-shadow: 5px 5px 5px $color-lightblack2;
+            margin-bottom: 0;
+        }
+    }
+
+    .sectionForm__form {
+        border-radius: 6%/3%;
+        width: 95%;
+        height: 100%;
+        gap: 10px;
+        padding: 10px;
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    .sectionForm__mapa {
+        background-color: color-lightblack;
+        width: 95%;
+        padding: 10px;
+        border-radius: 6%/3%;
+        gap: 10px;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .sectionForm__form {
+        .sectionForm__form__btn {
+            flex-direction: column;
+        }
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width: 768px) {
+
+    .rama__body p {
+        font-size: 15px;
+    }
+
+    .card__width {
+        width: 17rem;
+    }
+
+    .hero__body h1 {
+        font-size: 45px;
+    }
+
+    .hero__body p {
+        font-size: 15px;
+    }
+
+    .mb-15px {
+        margin-bottom: 15px;
+    }
+
+    .nav-link {
+        padding: 3px;
+    }
+
+    .body {
+        line-height: 1.2;
+        min-height: 100vh;
+
+    }
+
+    .footer__datos {
+        font-size: 10px;
+    }
+
+    .footerAlignItems {
+        display: flex;
+        justify-content: center;
+    }
+
+    .staff {
+
+        .staff__person {
+            width: 300px;
+            flex-direction: column;
+            border-radius: 6%/4%;
+            padding: 10px;
+            transition: 0.4s;
+
+            img {
+                size: 100px;
+            }
+        }
+    }
+
+    .bodyNosotros__img img {
+        border-radius: 3% /6%;
+        width: 300px;
+        height: 150px;
+    }
+
+    .bodyNosotros__text {
+        font-size: 16px;
+
+        p {
+            border-radius: 3% /6%;
+            padding: 18px;
+            box-shadow: 5px 5px 5px $color-lightblack2;
+            margin-bottom: 0;
+        }
+    }
+
+    .sectionForm__form {
+        border-radius: 9%/6%;
+        width: 95%;
+        height: 100%;
+        gap: 10px;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .sectionForm__mapa {
+        background-color: color-lightblack;
+        width: 95%;
+        padding: 10px;
+        border-radius: 8%/6%;
+        gap: 10px;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .form-justify {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sectionForm__form {
+        .sectionForm__form__btn {
+            flex-direction: column;
+        }
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 900px) {
+    .footer__datos {
+        font-size: 10px;
+    }
+
+    .rama__body p {
+        font-size: 15px;
+    }
+
+    .card__width {
+        width: 17rem;
+    }
+
+    .hero__body h1 {
+        font-size: 45px;
+    }
+
+    .hero__body p {
+        font-size: 15px;
+    }
+
+    .mb-15px {
+        margin-bottom: 15px;
+    }
+
+    .nav-link {
+        padding: 3px;
+    }
+
+    .body {
+        line-height: 1.2;
+        min-height: 100;
+    }
+
+    .footerAlignItems {
+        display: flex;
+        justify-content: center;
+    }
+
+    .staff {
+        .staff__person {
+            width: 300px;
+            flex-direction: column;
+            border-radius: 6%/4%;
+
+            img {
+                size: 100px;
+            }
+        }
+    }
+
+}

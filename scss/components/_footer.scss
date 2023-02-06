@@ -1,58 +1,52 @@
 
 .footer {
+    @include flexoptions (row, center,space-evenly);
+    position: absolute;
     font-family: 'ABeeZee', sans-serif;
     color:$color-lightgray;
-    display: flex;
-    justify-content:space-evenly;
     width: 100%;
     background-color: $color-lightblack2;
-    position: absolute;
     bottom: 0;
-}
 
-.footer__section {
-    display: flex;
-    flex-direction: row;
-    background-color: color-lightblack;
-    opacity: 1;
-    align-items: center;
-    width: 100%;
+    .footer__section {
+        @include flexoptions (row, center,space-evenly);
+        opacity: 1;
+        width: 100%;
+        background-color: $color-lightblack;
+
+        .container-fluid{
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
 }
 
 .footer__datos {
-    display:flex;
-    flex-direction: column ;
+    @include flexoptions (column, center,space-evenly);
     font-size: 15px;
-    align-items: center;
     margin-bottom: 0;
     margin-left: 0;
-}
 
-.footer__datos ul {
-    margin-bottom: 0;
-    padding-left: 0;
+    ul {
+        @include flexoptions (column, center,center);
+        margin-bottom: 0;
+        padding-left: 0;
+        text-align: center;
+    }
 }
 
 .footer__nav {
-    display:flex;
-    flex-direction: column ;
-}
+    @include flexoptions (column, center,space-evenly);
 
-.footer__nav ul li a {
-    color:$color-lightgray;
-}
-
-.footer__section div ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    ul li a {
+        color: $color-lightgray;
+    }
 }
 
 .footer__redes ul li a {
-    color:$color-lightgray;
+    color: $color-lightgray;
 }
 
 .footerAlignItems {
-    display: flex;
-    justify-content:right
+    @include flexoptions (row, center,right);
 }

@@ -1,32 +1,36 @@
 .staff {
-    display: flex;
-    justify-content: center;
+    @include flexoptions (row,center,center);
+    // display: flex;
+    // justify-content: center;
+
+    .staff__person {
+        @include flexoptions (row,center,center);
+        // display: flex;
+        // // flex-direction: row;
+        // align-items: center;
+
+        gap: 10px;
+        color:$color-lightgray;
+        width: 600px;
+        background-color: $color-lightblack;
+        border-radius: 3%/6%;
+        padding: 10px;
+        box-shadow:5px 5px 5px $color-lightblack2;
+        transition: 0.4s;
+    
+        ul li {
+            font-family: $font-body, serif;
+            font-size: 20px;
+        }
+    
+        img {
+            border-radius: 50%;
+        }
+    }
+    
+    .staff__person:hover{
+        box-shadow: 1px 1px 1px 1px rgb(32, 32, 32);
+        transform: scale(1, 1.05);
+    }
 }
 
-.staff__person {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    color:$color-lightgray;
-    align-items: center;
-    width: 600px;
-    background-color: $color-lightblack;
-    border-radius: 3%/6%;
-    padding: 10px;
-    box-shadow:5px 5px 5px $color-lightblack2;
-    transition: 0.4s;
-}
-
-.staff__person ul li {
-    font-family: 'Cormorant Upright', serif;
-    font-size: 18px;
-}
-
-.staff__person img {
-    border-radius: 50%;
-}
-
-.staff__person:hover{
-    box-shadow: 1px 1px 1px 1px rgb(32, 32, 32);
-    transform: scale(1, 1.05);
-}

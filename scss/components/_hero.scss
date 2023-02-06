@@ -1,38 +1,35 @@
-.hero{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+.hero {
+    @include flexoptions (column, center,space-evenly);
+
+    p {
+        font-family: $font-body, serif;
+        font-size: 20px;
+        color: $color-lightgray2;
+        padding: 0px 10px 0px 10px;
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 }
 
-.hero_bg{
+.hero_bg {
     background-image: linear-gradient(75deg, #0f0f0f52, #00000098), url(../assets/images/backgroungHero.png);
     background-position: center;
     background-size: cover;
 }
 
 .hero--mini {
-    background-color:$color-lightgray;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: linear-gradient(75deg, #0f0f0f52, #00000098), url(../assets/images/backgroungHero.png);
-    background-position: center;
-    background-size: cover;
+    @include flexoptions (column, center,space-evenly);
+    @extend .hero_bg;
+    // background-image: linear-gradient(75deg, #0f0f0f52, #00000098), url(../assets/images/backgroungHero.png);
+    // background-position: center;
+    // background-size: cover;
+    background-color: $color-lightgray;
     width: 100%;
 }
 
-.hero p {
-    font-family: 'Cormorant Infant', serif;
-    color:$color-lightgray;
-    font-size: large;
-    padding: 0px 10px 0px 10px;
-    text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
 .hero__titulo {
-    color:$color-lightgray;
+    color: $color-lightgray;
     font-family: 'MonteCarlo';
     font-size: 70px;
 }

@@ -1,0 +1,27 @@
+.card {
+    --bs-card-border-color: #242424;
+
+    img {
+        height: 130px;
+        object-fit: cover;
+    }
+}
+
+.card-body-color {
+    background-color: $color-lightblack;
+    color: #eee;
+    border-color: $color-lightblack2;
+}
+
+.card__transform{
+    transition: 0.4s;
+}
+
+.card__transform:hover{
+    box-shadow: 1px 1px 1px 1px rgb(32, 32, 32);
+    transform: scale(1, 1.05);
+}
+
+.card__width {
+    width: 20rem;
+}

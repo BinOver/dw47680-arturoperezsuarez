@@ -1,81 +1,39 @@
 /*Header*/
 
 .header {
-    height:73px;
+    height: 73px;
     background-color: $color-lightblack2;
     margin-bottom: 10px;
 }
 
 
-.nav {
-    background-color:color-lightblack;
-    display:flex;
-    justify-content:space-around;
-    align-items: center;
-}
-
-.nav-link {
-    font-family: 'ABeeZee', sans-serif;
-    color:$color-lightgray2;
-    padding: 15px;
-    margin: 0;
-    float: right;
-}
-
-.nav__titulo {
-    color: $color-lightgray;
-    font-family: 'MonteCarlo';
-    font-size: xx-large;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
-
-.nav__items {
-    display: flex;
-    flex-direction: row;
-}
-
-.nav_color{
-    background-color:color-lightblack;
-}
-
-.text-bg-dark-mod {
-    color: $color-lightgray;
-    background-color: color-lightblackec ;
-}
-
-.offcanvas {
-    --bs-offcanvas-width:300px;
-}
 
 .link {
+    @include flexoptions (row, center,space-evenly);
 
-    display: flex;
-    justify-content: space-evenly;
-}
+    a {
+        position: relative;
+    }
 
-.link a {
-    position: relative;
-}
+    a:after {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 2px;
+        width: 100%;
+        background: $color-lightgray;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform 0.2s ease-in-out;
+    }
 
-.link a:after {
-    content: "";
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 2px;
-    width: 100%;
-    background: $color-lightgray;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform 0.2s ease-in-out;
-}
+    a:hover:after {
+        transform-origin: left;
+        transform: scaleX(1);
+    }
 
-.link a:hover:after {
-    transform-origin: left;
-    transform: scaleX(1);
 }
 
 .row {

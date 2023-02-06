@@ -1,0 +1,32 @@
+.nav-link {
+    font-family: 'ABeeZee', sans-serif;
+    color: $color-lightgray2;
+    padding: 15px;
+    margin: 0;
+    float: right;
+}
+
+.nav__titulo {
+    @include flexoptions (row, flex-start,space-evenly);
+    color: $color-lightgray;
+    font-family: 'MonteCarlo';
+    font-size: xx-large;
+}
+
+.nav__items {
+    @include flexoptions (row, center,space-evenly);
+}
+
+.nav_color {
+    background-color: $color-lightblack;
+}
+
+.text-bg-dark-mod {
+    color: $color-lightgray;
+    background-color: $color-lightblack;
+    opacity:0.9;
+}
+
+.offcanvas {
+    --bs-offcanvas-width: 300px;
+}
