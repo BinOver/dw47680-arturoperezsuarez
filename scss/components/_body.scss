@@ -1,5 +1,7 @@
 .body {
-    background-color:$color-lightblack2;
+    // background-color:$color-lightblack2;
+    background: rgb(0,0,0);
+    background: linear-gradient(40deg, rgba(0,0,0,1) 0%, rgb(15, 15, 15) 50%, rgb(23, 23, 23) 100%); 
     min-height: 100vh;
     position: relative;
 }
