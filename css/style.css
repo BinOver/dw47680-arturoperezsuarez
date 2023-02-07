@@ -131,7 +131,7 @@
 
 .body {
   background: black;
-  background: linear-gradient(40deg, black 0%, #0f0f0f 50%, #171717 100%);
+  background: linear-gradient(45deg, black 0%, #0f0f0f 50%, #171717 100%);
   min-height: 100vh;
   position: relative; }
 
@@ -186,10 +186,9 @@ body::after {
 
 .card__transform {
   transition: 0.4s; }
-
-.card__transform:hover {
-  box-shadow: 2px 2px 2px 2px #414141;
-  transform: scale(1, 1.05); }
+  .card__transform:hover {
+    box-shadow: 2px 2px 2px 2px #414141;
+    transform: scale(1, 1.05); }
 
 .card__width {
   width: 20rem; }
@@ -313,9 +312,9 @@ body::after {
     .staff .staff__person img {
       border-radius: 15%;
       width: 200px; }
-  .staff .staff__person:hover {
-    box-shadow: 1px 1px 1px 1px #202020;
-    transform: scale(1, 1.05); }
+    .staff .staff__person:hover {
+      box-shadow: 1px 1px 1px 1px #202020;
+      transform: scale(1, 1.05); }
 
 .sectionForm {
   display: flex;

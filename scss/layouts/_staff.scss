@@ -24,11 +24,12 @@
             border-radius: 15%;
             width: 200px;
         }
+        
+        &:hover{
+            box-shadow: 1px 1px 1px 1px rgb(32, 32, 32);
+            transform: scale(1, 1.05);
+        }
     }
     
-    .staff__person:hover{
-        box-shadow: 1px 1px 1px 1px rgb(32, 32, 32);
-        transform: scale(1, 1.05);
-    }
 }
 
