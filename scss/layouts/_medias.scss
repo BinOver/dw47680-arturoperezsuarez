@@ -69,6 +69,11 @@
         }
     }
 
+    .bodyNosotros_ytoptions{
+        width:200px;
+        height:120px;
+    }
+
     .sectionForm__form {
         border-radius: 6%/3%;
         width: 95%;
@@ -93,6 +98,10 @@
         .sectionForm__form__btn {
             flex-direction: column;
         }
+    }
+
+    .nav__titulo {
+        font-size: 27px;
     }
 }
 

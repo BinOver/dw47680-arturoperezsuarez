@@ -405,6 +405,9 @@ body::after {
       padding: 18px;
       box-shadow: 5px 5px 5px #0a0a0a;
       margin-bottom: 0; }
+  .bodyNosotros_ytoptions {
+    width: 200px;
+    height: 120px; }
   .sectionForm__form {
     border-radius: 6%/3%;
     width: 95%;
@@ -422,7 +425,9 @@ body::after {
     padding: 10px;
     margin: 5px; }
   .sectionForm__form .sectionForm__form__btn {
-    flex-direction: column; } }
+    flex-direction: column; }
+  .nav__titulo {
+    font-size: 27px; } }
 
 @media only screen and (min-width: 321px) and (max-width: 768px) {
   .rama__body p {
