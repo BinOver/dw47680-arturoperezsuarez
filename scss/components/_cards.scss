@@ -1,6 +1,6 @@
 .card {
     --bs-card-border-color: #242424;
-    box-shadow: 1px 1px 1px 1px rgb(49, 49, 49);
+    box-shadow: 1px 1px 1px 1px $color-shadow1;
 
     img {
         height: 130px;
@@ -19,7 +19,7 @@
 }
 
 .card__transform:hover{
-    box-shadow: 3px 3px 3px 3px rgb(65, 65, 65);
+    box-shadow: 2px 2px 2px 2px rgb(65, 65, 65);
     transform: scale(1, 1.05);
 }
 
