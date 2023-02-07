@@ -16,16 +16,13 @@
     background-image: linear-gradient(75deg, #0f0f0f52, #00000098), url(../assets/images/backgroungHero.png);
     background-position: center;
     background-size: cover;
+    width: 100%;
 }
 
 .hero--mini {
     @include flexoptions (column, center,space-evenly);
     @extend .hero_bg;
-    // background-image: linear-gradient(75deg, #0f0f0f52, #00000098), url(../assets/images/backgroungHero.png);
-    // background-position: center;
-    // background-size: cover;
     background-color: $color-lightgray;
-    width: 100%;
 }
 
 .hero__titulo {
