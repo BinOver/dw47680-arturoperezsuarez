@@ -154,8 +154,8 @@
 
     .bodyNosotros__img img {
         border-radius: 3% /6%;
-        width: 300px;
-        height: 150px;
+        width: 280px;
+        height:150px;
     }
 
     .bodyNosotros__text {
@@ -167,6 +167,11 @@
             box-shadow: 5px 5px 5px $color-lightblack2;
             margin-bottom: 0;
         }
+    }
+
+    .bodyNosotros_ytoptions{
+        width:280px;
+        height:150px;
     }
 
     .sectionForm__form {

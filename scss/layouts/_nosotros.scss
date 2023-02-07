@@ -11,9 +11,9 @@
 
 
     p {
-        width: 80%;
+        width: 100%;
         background-color: $color-lightblack;
-        border-radius: 3% /6%;
+        border-radius:2% /6%;
         padding: 20px;
         box-shadow:5px 5px 5px $color-lightblack2;
         margin-bottom: 0;
@@ -37,4 +37,13 @@
 
 .alignNosotros {
     @include flexoptions (row,center,center);
+}
+
+.bodyNosotros_ytoptions{
+    width:400px;
+    height:215px;
+}
+
+.bodyNosotros__iframe iframe{
+    border-radius:3% /6%;
 }
