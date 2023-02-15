@@ -334,13 +334,13 @@ body::after {
   width: 90%;
   padding: 20px;
   margin: 20px;
-  border-radius: 5%/10%;
+  border-radius: 3%/6%;
   gap: 10px; }
   .sectionForm__mapa iframe, .sectionForm__form iframe {
     width: 100%;
     height: 350px;
     border: 0;
-    border-radius: 5%/10%; }
+    border-radius: 3%/6%; }
 
 .sectionForm__form {
   display: flex;
