@@ -33,6 +33,7 @@
 
 .bodyNosotros__iframe {
     @include flexoptions (row,center,center);
+    border:0;
 }
 
 .alignNosotros {
