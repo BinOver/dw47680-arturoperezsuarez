@@ -7,7 +7,7 @@
   box-sizing: border-box; }
 
 .nav-link {
-  font-family: 'ABeeZee', sans-serif;
+  font-family: "ABeeZee", sans-serif;
   color: #dfdfdf;
   padding: 15px;
   margin: 0;
@@ -19,7 +19,7 @@
   align-items: flex-start;
   justify-content: space-evenly;
   color: #e2e2e2;
-  font-family: 'MonteCarlo';
+  font-family: "MonteCarlo";
   font-size: xx-large; }
 
 .nav__items {
@@ -39,7 +39,6 @@
 .offcanvas {
   --bs-offcanvas-width: 300px; }
 
-/*Header*/
 .header {
   height: 73px;
   background-color: #0a0a0a;
@@ -78,7 +77,7 @@
   align-items: center;
   justify-content: space-evenly;
   position: absolute;
-  font-family: 'ABeeZee', sans-serif;
+  font-family: "ABeeZee", sans-serif;
   color: #e2e2e2;
   width: 100%;
   background-color: #0a0a0a;
@@ -169,7 +168,7 @@ body::after {
 
 .hero__titulo {
   color: #e2e2e2;
-  font-family: 'MonteCarlo';
+  font-family: "MonteCarlo";
   font-size: 70px; }
 
 .card {
@@ -232,7 +231,7 @@ body::after {
     font-family: "Gudea", serif; }
   .rama__body h2 {
     color: #0a0a0a;
-    font-family: 'ABeeZee', sans-serif; }
+    font-family: "ABeeZee", sans-serif; }
 
 .bodyNosotros {
   display: flex;
@@ -348,7 +347,7 @@ body::after {
   flex-direction: column;
   align-items: left;
   justify-content: space-between;
-  font-family: 'ABeeZee', sans-serif;
+  font-family: "ABeeZee", sans-serif;
   height: 100%;
   color: #fff; }
   .sectionForm__form .sectionForm__form__content {

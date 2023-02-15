@@ -1,12 +1,8 @@
-/*Header*/
-
 .header {
     height: 73px;
     background-color: $color-lightblack2;
     margin-bottom: 10px;
 }
-
-
 
 .link {
     @include flexoptions (row, center,space-evenly);

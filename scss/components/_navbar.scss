@@ -1,5 +1,5 @@
 .nav-link {
-    font-family: 'ABeeZee', sans-serif;
+    font-family: $font-links, sans-serif;
     color: $color-lightgray2;
     padding: 15px;
     margin: 0;
@@ -9,7 +9,7 @@
 .nav__titulo {
     @include flexoptions (row, flex-start,space-evenly);
     color: $color-lightgray;
-    font-family: 'MonteCarlo';
+    font-family: $font-titulo;
     font-size: xx-large;
 }
 

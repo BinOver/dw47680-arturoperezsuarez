@@ -24,7 +24,7 @@
 .sectionForm__form {
     @include flexoptions (column, left, space-between);
     @extend .sectionForm__mapa;
-    font-family: 'ABeeZee', sans-serif;
+    font-family: $font-links, sans-serif;
     height: 100%;
     color: #fff;
 

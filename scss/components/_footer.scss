@@ -2,7 +2,7 @@
 .footer {
     @include flexoptions (row, center,space-evenly);
     position: absolute;
-    font-family: 'ABeeZee', sans-serif;
+    font-family: $font-links, sans-serif;
     color:$color-lightgray;
     width: 100%;
     background-color: $color-lightblack2;
